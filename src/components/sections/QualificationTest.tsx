@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, ArrowLeft, CheckCircle2, ChevronRight, AlertCircle, Loader2 } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, Loader2 } from 'lucide-react';
+import Image from "next/image";
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -73,14 +74,7 @@ export function QualificationTest() {
         }
     };
 
-    const handleNext = () => {
-        // Questions end at index 3 (length 4).
-        // Step 0, 1, 2, 3 are questions.
-        // Step 4 is Form.
-        if (currentStep < 4) {
-            setCurrentStep(prev => prev + 1);
-        }
-    };
+
 
     const handlePrev = () => {
         if (currentStep > 0) {
@@ -123,10 +117,10 @@ export function QualificationTest() {
                 <div className="text-center mb-12 space-y-4">
                     <FadeIn>
                         <h2 className="text-3xl md:text-5xl font-black tracking-tight text-slate-900 leading-tight">
-                            Sun'iy Intellekt kursiga <span className="text-red-600">qabul cheklangan</span>.
+                            Sun&apos;iy Intellekt kursiga <span className="text-red-600">qabul cheklangan</span>.
                         </h2>
                         <p className="text-xl text-slate-600 font-medium max-w-2xl mx-auto">
-                            Testdan o'ting, shunda siz bizga mos ekanligingizni bilamiz.
+                            Testdan o&apos;ting, shunda siz bizga mos ekanligingizni bilamiz.
                         </p>
                     </FadeIn>
                 </div>
@@ -201,7 +195,7 @@ export function QualificationTest() {
                                                         Qadam 5/5
                                                     </span>
                                                     <h3 className="text-2xl md:text-3xl font-bold text-slate-900">
-                                                        Bog'lanish uchun telefon raqamingizni qoldiring
+                                                        Bog&apos;lanish uchun telefon raqamingizni qoldiring
                                                     </h3>
                                                 </div>
 
@@ -221,7 +215,7 @@ export function QualificationTest() {
                                                         <label htmlFor="phone" className="text-sm font-medium text-slate-700 ml-1">Telefon raqamingiz</label>
                                                         <div className="relative">
                                                             <div className="absolute left-4 top-1/2 -translate-y-1/2 flex items-center gap-2">
-                                                                <img src="https://flagcdn.com/w20/uz.png" srcSet="https://flagcdn.com/w40/uz.png 2x" width="20" alt="Uzbekistan" />
+                                                                <Image src="https://flagcdn.com/w20/uz.png" width={20} height={15} alt="Uzbekistan" unoptimized />
                                                                 <span className="text-slate-500 font-medium">+998</span>
                                                             </div>
                                                             <Input
@@ -291,7 +285,7 @@ export function QualificationTest() {
                                             Tabriklaymiz!
                                         </h3>
                                         <p className="text-xl text-slate-600 max-w-md mx-auto">
-                                            Sizning arizangiz qabul qilindi. Tez orada menejerlarimiz siz bilan bog'lanishadi.
+                                            Sizning arizangiz qabul qilindi. Tez orada menejerlarimiz siz bilan bog&apos;lanishadi.
                                         </p>
                                         <div className="pt-8">
                                             <Button
@@ -300,7 +294,7 @@ export function QualificationTest() {
                                                 }}
                                                 className="w-full md:w-auto bg-green-600 hover:bg-green-700 text-white h-16 px-12 rounded-2xl font-bold text-xl shadow-xl shadow-green-600/20 animate-pulse"
                                             >
-                                                Kurs narxlarini ko'rish
+                                                Kurs narxlarini ko&apos;rish
                                             </Button>
                                         </div>
                                     </CardContent>

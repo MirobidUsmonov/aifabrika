@@ -1,7 +1,6 @@
-import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+
 import { FadeIn, ScaleUp } from "@/components/ui/motion"
-import { Layers, Zap, Video, MonitorPlay, Mic, Layout, Search, BarChart, FileText, Briefcase, Lock, Image as ImageIcon } from "lucide-react"
+import { Layers, Zap, Video, MonitorPlay, Mic, Layout, Search, BarChart, FileText, Lock, Image as ImageIcon } from "lucide-react"
 
 const modules = [
     {

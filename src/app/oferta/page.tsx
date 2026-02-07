@@ -10,7 +10,7 @@ export default function OfertaPage() {
                         <section>
                             <h3 className="text-xl font-bold text-slate-900 mb-3">1. Umumiy qoidalar</h3>
                             <p>
-                                Ushbu "Ommaviy oferta" (keyingi o‘rinlarda — Shartnoma) "AI FABRIKA" (keyingi o‘rinlarda — Ijrochi) va xizmatlardan foydalanuvchi jismoniy yoki yuridik shaxs (keyingi o‘rinlarda — Buyurtmachi) o‘rtasida tuzilgan rasmiy taklif hisoblanadi.
+                                Ushbu &quot;Ommaviy oferta&quot; (keyingi o‘rinlarda — Shartnoma) &quot;AI FABRIKA&quot; (keyingi o‘rinlarda — Ijrochi) va xizmatlardan foydalanuvchi jismoniy yoki yuridik shaxs (keyingi o‘rinlarda — Buyurtmachi) o‘rtasida tuzilgan rasmiy taklif hisoblanadi.
                             </p>
                             <p>
                                 Mazkur Shartnoma O‘zbekiston Respublikasi Fuqarolik Kodeksining tegishli moddalariga asosan tuzilgan bo‘lib, to‘lov amalga oshirilgan paytdan boshlab qonuniy kuchga kiradi va imzolangan hisoblanadi.
@@ -24,7 +24,7 @@ export default function OfertaPage() {
                             </p>
                             <ul className="list-disc pl-5 space-y-2 mt-2">
                                 <li>Sun’iy intellekt vositalaridan foydalanishni o‘rgatish.</li>
-                                <li>Raqamli kontent yaratish bo'yicha amaliy mashg‘ulotlar.</li>
+                                <li>Raqamli kontent yaratish bo&apos;yicha amaliy mashg‘ulotlar.</li>
                                 <li>Marketing va SMM strategiyalarini ishlab chiqish bo‘yicha qo‘llanmalar.</li>
                             </ul>
                         </section>
@@ -32,7 +32,7 @@ export default function OfertaPage() {
                         <section>
                             <h3 className="text-xl font-bold text-slate-900 mb-3">3. To‘lov va Xizmat narxi</h3>
                             <p>
-                                Xizmatlar narxi saytning "Tariflar" bo‘limida ko‘rsatilgan. To‘lovlar milliy valyutada (so‘m) Click, Payme yoki boshqa elektron to‘lov tizimlari orqali amalga oshiriladi.
+                                Xizmatlar narxi saytning &quot;Tariflar&quot; bo‘limida ko‘rsatilgan. To‘lovlar milliy valyutada (so‘m) Click, Payme yoki boshqa elektron to‘lov tizimlari orqali amalga oshiriladi.
                             </p>
                             <p>
                                 To‘lov amalga oshirilgandan so‘ng, mablag‘ qaytarilmaydi, agar xizmat Ijrochi tomonidan to‘liq ko‘rsatilmagan holatlar bundan mustasno.
@@ -40,7 +40,7 @@ export default function OfertaPage() {
                         </section>
 
                         <section>
-                            <h3 className="text-xl font-bold text-slate-900 mb-3">4. Mas'uliyat va Majburiyatlar</h3>
+                            <h3 className="text-xl font-bold text-slate-900 mb-3">4. Mas&apos;uliyat va Majburiyatlar</h3>
                             <p>
                                 <strong>Ijrochi:</strong> Xizmatlarni sifatli va o‘z vaqtida taqdim etish majburiyatini oladi. Texnik nosozliklar yuzaga kelganda, ularni imkon qadar tezroq bartaraf etishga harakat qiladi.
                             </p>
@@ -52,13 +52,13 @@ export default function OfertaPage() {
                         <section>
                             <h3 className="text-xl font-bold text-slate-900 mb-3">5. Mualliflik huquqi</h3>
                             <p>
-                                Barcha darsliklar, videolar va qo‘llanmalar "AI FABRIKA"ning intellektual mulki hisoblanadi. Ruxsatsiz nusxa ko‘chirish va tarqatish qonuniy javobgarlikka sabab bo‘ladi.
+                                Barcha darsliklar, videolar va qo‘llanmalar &quot;AI FABRIKA&quot;ning intellektual mulki hisoblanadi. Ruxsatsiz nusxa ko‘chirish va tarqatish qonuniy javobgarlikka sabab bo‘ladi.
                             </p>
                         </section>
 
                         <div className="pt-8 border-t border-slate-100 mt-8">
                             <p className="font-bold text-slate-900">AI FABRIKA</p>
-                            <p>Manzil: Abdulla Qodiriy ko'chasi 10A</p>
+                            <p>Manzil: Abdulla Qodiriy ko&apos;chasi 10A</p>
                             <p>Tel: +998 33 150 77 50</p>
                         </div>
                     </div>

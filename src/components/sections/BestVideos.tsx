@@ -1,8 +1,8 @@
 'use client';
 
-import { Card, CardContent } from "@/components/ui/card"
+import { Card } from "@/components/ui/card"
 import { FadeIn, ScaleUp } from "@/components/ui/motion"
-import { TrendingUp, Heart, Eye, Play } from "lucide-react"
+import { Play } from "lucide-react"
 import { useState } from "react"
 
 // Video data from the user's request

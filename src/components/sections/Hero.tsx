@@ -1,7 +1,7 @@
 'use client';
 
 import { Button } from "@/components/ui/button"
-import { Play, Star, Zap, Volume2, Maximize2, SkipForward } from "lucide-react"
+import { Zap } from "lucide-react"
 import { FadeIn, ScaleUp, Marquee } from "@/components/ui/motion"
 
 export function Hero() {
@@ -44,7 +44,7 @@ export function Hero() {
 
                         <FadeIn delay={0.3}>
                             <p className="text-lg md:text-xl text-slate-600 max-w-lg leading-relaxed font-medium">
-                                Sun'iy intellekt — bu shunchaki trend emas, bu sizning yangi imkoniyatingiz. <span className="text-slate-900 font-bold">Raqobatchilardan 10 qadam oldinda bo'ling</span> va kelajak kasbini bugun egallang.
+                                Sun&apos;iy intellekt — bu shunchaki trend emas, bu sizning yangi imkoniyatingiz. <span className="text-slate-900 font-bold">Raqobatchilardan 10 qadam oldinda bo&apos;ling</span> va kelajak kasbini bugun egallang.
                             </p>
                         </FadeIn>
 
@@ -65,7 +65,7 @@ export function Hero() {
                         <FadeIn delay={0.5} className="pt-8">
                             <p className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-4 flex items-center gap-2">
                                 <Zap className="w-4 h-4 text-blue-500" />
-                                O'rganiladigan Top A.I. Vositalar:
+                                O&apos;rganiladigan Top A.I. Vositalar:
                             </p>
                             <div className="flex flex-wrap items-center gap-3">
                                 {['ChatGPT', 'Gemini', 'Google Flow', 'ElevenLabs', 'Canva', 'Edits'].map((tool, i) => (
@@ -101,7 +101,7 @@ export function Hero() {
             {/* Infinite Marquee */}
             <div className="bg-blue-600 py-4 -rotate-1 origin-left scale-105 border-y-4 border-white/10">
                 <Marquee className="text-white font-black text-2xl tracking-widest uppercase">
-                    <span>AI FABRIKA</span> <span>•</span> <span>SUN'IY INTELLEKT</span> <span>•</span> <span>KELAJAK KASBI</span> <span>•</span> <span>YUQORI DAROMAD</span> <span>•</span> <span>TEZKOR TA'LIM</span> <span>•</span>
+                    <span>AI FABRIKA</span> <span>•</span> <span>SUN&apos;IY INTELLEKT</span> <span>•</span> <span>KELAJAK KASBI</span> <span>•</span> <span>YUQORI DAROMAD</span> <span>•</span> <span>TEZKOR TA&apos;LIM</span> <span>•</span>
                 </Marquee>
             </div>
         </section>

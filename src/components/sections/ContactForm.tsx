@@ -28,7 +28,7 @@ export function ContactForm() {
                             Savollaringiz qoldimi?
                         </h2>
                         <p className="mt-4 text-xl text-slate-600">
-                            Ma'lumotlaringizni qoldiring, menejerlarimiz siz bilan bog'lanishadi.
+                            Ma&apos;lumotlaringizni qoldiring, menejerlarimiz siz bilan bog&apos;lanishadi.
                         </p>
                     </FadeIn>
                 </div>
@@ -38,7 +38,7 @@ export function ContactForm() {
                         <div className="h-2 bg-gradient-to-r from-blue-500 to-indigo-600"></div>
                         <CardHeader className="text-center pb-6 pt-8">
                             <CardTitle className="text-2xl font-black text-slate-900">Kursga yozilish</CardTitle>
-                            <CardDescription className="text-slate-500 font-medium">Hoziroq ro'yxatdan o'ting va chegirmaga ega bo'ling</CardDescription>
+                            <CardDescription className="text-slate-500 font-medium">Hoziroq ro&apos;yxatdan o&apos;ting va chegirmaga ega bo&apos;ling</CardDescription>
                         </CardHeader>
                         <CardContent className="px-8 pb-10">
                             <form onSubmit={handleSubmit} className="space-y-5">

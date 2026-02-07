@@ -1,5 +1,5 @@
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
-import { MonitorPlay, Settings, Briefcase, GraduationCap, ArrowRight, Clock } from "lucide-react"
+import { MonitorPlay, Settings, Briefcase, GraduationCap, Clock } from "lucide-react"
 import { FadeIn, ScaleUp } from "@/components/ui/motion"
 import { OpenAILogo } from "@/components/ui/ai-logos"
 
@@ -56,7 +56,7 @@ export function TargetAudience() {
                             Kurs kimlar uchun?
                         </h2>
                         <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-                            Ushbu kurs kimlarga eng ko'p foyda keltiradi?
+                            Ushbu kurs kimlarga eng ko&apos;p foyda keltiradi?
                         </p>
                     </FadeIn>
                 </div>

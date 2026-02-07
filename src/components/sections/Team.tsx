@@ -1,13 +1,15 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Quote } from "lucide-react"
+
 import { FadeIn, ScaleUp } from "@/components/ui/motion"
+
+import Image from "next/image"
 
 const team = [
     {
         name: "ai.fabrika",
         role: "Asosiy Loyiha",
-        followers: "7.1K+ obunachi",
+        followers: "8.5K+ obunachi",
         image: "/images/team/ai.fabrika.jpg",
         badges: ["AI Mahsulot", "10+ Jamoa"],
         description: "Bu yerda g‘oyalar — AI mahsulotga aylanadi. 10+ AI ijodkor — bitta jamoa.",
@@ -16,7 +18,7 @@ const team = [
     {
         name: "ai.zamon",
         role: "AI Creator",
-        followers: "88K+ obunachi",
+        followers: "107K+ obunachi",
         image: "/images/team/ai.zamon.jpg",
         badges: ["AI Content", "Video Creator"],
         description: "Sizdan bu ❤️ gina — Bizdan bu 🎬 gina. Obuna bo‘l ~ Kreativlikda bo‘l 💡",
@@ -25,7 +27,7 @@ const team = [
     {
         name: "ai.birodar",
         role: "Digital Creator",
-        followers: "8K+ obunachi",
+        followers: "8.8K+ obunachi",
         image: "/images/team/ai.birodar.jpg",
         badges: ["Digital Creator", "Tuyg'ular"],
         description: "Bular shunchaki video emas 🎬. Bu yerda so‘zlar gapirmaydi — Tuyg‘ular gapiradi 🖤",
@@ -34,7 +36,7 @@ const team = [
     {
         name: "ai.ustaxona",
         role: "Digital Creator",
-        followers: "32K+ obunachi",
+        followers: "47K+ obunachi",
         image: "/images/team/ai.ustaxona.jpg",
         badges: ["AI Content", "Kreativlik"],
         description: "Buyurtmaga AI KONTENT 🎥. Sizdan bu ❤️ gina — Bizdan bu 🎬 gina.",
@@ -62,8 +64,8 @@ export function Team() {
                                 <Card className="h-full bg-white border-0 shadow-xl shadow-slate-200/50 rounded-3xl overflow-hidden hover:shadow-2xl transition-all duration-300 flex flex-col group hover:-translate-y-2">
                                     <div className="p-8 pb-0 flex justify-center">
                                         <div className="w-32 h-32 rounded-full p-1 bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500">
-                                            <div className="w-full h-full rounded-full border-4 border-white overflow-hidden bg-white">
-                                                <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
+                                            <div className="w-full h-full rounded-full border-4 border-white overflow-hidden bg-white relative">
+                                                <Image src={member.image} alt={member.name} fill className="object-cover" />
                                             </div>
                                         </div>
                                     </div>
@@ -83,7 +85,7 @@ export function Team() {
                                     <CardContent className="text-center px-6 pb-8 flex-1 flex flex-col">
                                         <div className="mb-6 flex-1">
                                             <p className="text-slate-600 font-medium italic">
-                                                "{member.description}"
+                                                &quot;{member.description}&quot;
                                             </p>
                                         </div>
                                         <div className="flex flex-wrap justify-center gap-2">

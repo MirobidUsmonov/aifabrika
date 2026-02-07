@@ -9,27 +9,27 @@ export default function PrivacyPage() {
                         <section>
                             <h3 className="text-xl font-bold text-slate-900 mb-3">1. Kirish</h3>
                             <p>
-                                Ushbu "Maxfiylik Siyosati" (keyingi o‘rinlarda — Siyosat) "AI FABRIKA" (keyingi o‘rinlarda — Biz) foydalanuvchilarning (keyingi o‘rinlarda — Siz) shaxsiy ma'lumotlarini qanday yig‘ishi, foydalanishi va himoya qilishini tushuntiradi.
+                                Ushbu &quot;Maxfiylik Siyosati&quot; (keyingi o‘rinlarda — Siyosat) &quot;AI FABRIKA&quot; (keyingi o‘rinlarda — Biz) foydalanuvchilarning (keyingi o‘rinlarda — Siz) shaxsiy ma&apos;lumotlarini qanday yig‘ishi, foydalanishi va himoya qilishini tushuntiradi.
                             </p>
                         </section>
 
                         <section>
-                            <h3 className="text-xl font-bold text-slate-900 mb-3">2. Qanday ma'lumotlarni yig‘amiz?</h3>
+                            <h3 className="text-xl font-bold text-slate-900 mb-3">2. Qanday ma&apos;lumotlarni yig‘amiz?</h3>
                             <p>
-                                Xizmatlarimizdan foydalanish jarayonida quyidagi ma'lumotlarni so‘rashimiz mumkin:
+                                Xizmatlarimizdan foydalanish jarayonida quyidagi ma&apos;lumotlarni so‘rashimiz mumkin:
                             </p>
                             <ul className="list-disc pl-5 space-y-2 mt-2">
                                 <li>Ism va familiya;</li>
                                 <li>Telefon raqami;</li>
                                 <li>Elektron pochta manzili;</li>
-                                <li>To‘lov ma'lumotlari (faqat tranzaksiya jarayoni uchun).</li>
+                                <li>To‘lov ma&apos;lumotlari (faqat tranzaksiya jarayoni uchun).</li>
                             </ul>
                         </section>
 
                         <section>
-                            <h3 className="text-xl font-bold text-slate-900 mb-3">3. Ma'lumotlardan foydalanish maqsadi</h3>
+                            <h3 className="text-xl font-bold text-slate-900 mb-3">3. Ma&apos;lumotlardan foydalanish maqsadi</h3>
                             <p>
-                                Sizning ma'lumotlaringiz quyidagi maqsadlarda ishlatiladi:
+                                Sizning ma&apos;lumotlaringiz quyidagi maqsadlarda ishlatiladi:
                             </p>
                             <ul className="list-disc pl-5 space-y-2 mt-2">
                                 <li>Xizmatlarni taqdim etish va kurslarga ulanishni ta’minlash;</li>
@@ -40,22 +40,22 @@ export default function PrivacyPage() {
                         </section>
 
                         <section>
-                            <h3 className="text-xl font-bold text-slate-900 mb-3">4. Ma'lumotlar xavfsizligi</h3>
+                            <h3 className="text-xl font-bold text-slate-900 mb-3">4. Ma&apos;lumotlar xavfsizligi</h3>
                             <p>
-                                Biz Sizning shaxsiy ma'lumotlaringizni uchinchi shaxslarga sotmaymiz va tarqatmaymiz. Ma'lumotlaringiz xavfsiz serverlarda saqlanadi va zamonaviy shifrlash usullari orqali himoya qilinadi.
+                                Biz Sizning shaxsiy ma&apos;lumotlaringizni uchinchi shaxslarga sotmaymiz va tarqatmaymiz. Ma&apos;lumotlaringiz xavfsiz serverlarda saqlanadi va zamonaviy shifrlash usullari orqali himoya qilinadi.
                             </p>
                         </section>
 
                         <section>
                             <h3 className="text-xl font-bold text-slate-900 mb-3">5. Cookie fayllari</h3>
                             <p>
-                                Saytimiz foydalanuvchi tajribasini yaxshilash maqsadida "Cookie" fayllaridan foydalanishi mumkin. Siz brauzer sozlamalari orqali ularni o‘chirib qo‘yish huquqiga egasiz.
+                                Saytimiz foydalanuvchi tajribasini yaxshilash maqsadida &quot;Cookie&quot; fayllaridan foydalanishi mumkin. Siz brauzer sozlamalari orqali ularni o‘chirib qo‘yish huquqiga egasiz.
                             </p>
                         </section>
 
                         <div className="pt-8 border-t border-slate-100 mt-8">
                             <p className="font-bold text-slate-900">AI FABRIKA</p>
-                            <p>Manzil: Abdulla Qodiriy ko'chasi 10A</p>
+                            <p>Manzil: Abdulla Qodiriy ko&apos;chasi 10A</p>
                             <p>Tel: +998 33 150 77 50</p>
                         </div>
                     </div>

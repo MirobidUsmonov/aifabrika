@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card"
-import { Check, X, Clock, DollarSign, Video, Zap, ShieldCheck, Gift } from "lucide-react"
+import { Card, CardContent, CardHeader, CardFooter } from "@/components/ui/card"
+import { Check, X, Clock, Video, Zap, ShieldCheck, Gift } from "lucide-react"
 import { FadeIn, ScaleUp } from "@/components/ui/motion"
 import { Button } from "@/components/ui/button"
 
@@ -117,7 +117,7 @@ export function Pricing() {
                                     : 'text-slate-500 hover:text-slate-900'
                                     }`}
                             >
-                                Bo'lib to'lash (3 oy)
+                                Bo&apos;lib to&apos;lash (3 oy)
                             </button>
                             <button
                                 onClick={() => setBillingCycle('full')}
@@ -126,7 +126,7 @@ export function Pricing() {
                                     : 'text-slate-500 hover:text-slate-900'
                                     }`}
                             >
-                                To'liq to'lov
+                                To&apos;liq to&apos;lov
                             </button>
 
                             {/* Animated Background for Active Tab */}
@@ -223,12 +223,12 @@ export function Pricing() {
                                             }}
                                             className={`w-full h-14 text-lg font-bold rounded-xl shadow-lg transition-all hover:scale-105 active:scale-95 ${pkg.popular
                                                 ? 'bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white shadow-indigo-200'
-                                                // @ts-ignore
+                                                //
                                                 : pkg.isConsultation
                                                     ? 'bg-white border-2 border-slate-900 text-slate-900 hover:bg-slate-50'
                                                     : 'bg-slate-900 hover:bg-slate-800 text-white'
                                                 }`}>
-                                            {/* @ts-ignore */}
+                                            {/*  */}
                                             {pkg.isConsultation ? "Maslahat Olish" : (billingCycle === 'installment' ? "Bo'lib to'lash" : "Tanlash")}
                                         </Button>
                                     </CardFooter>
@@ -247,7 +247,7 @@ export function Pricing() {
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-bold text-slate-900 text-lg">Maxsus Bonus</h4>
-                                    <p className="text-slate-600 text-sm">Bugun ro'yxatdan o'tsangiz</p>
+                                    <p className="text-slate-600 text-sm">Bugun ro&apos;yxatdan o&apos;tsangiz</p>
                                 </div>
                             </div>
 

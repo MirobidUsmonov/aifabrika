@@ -18,7 +18,7 @@ export function Navbar() {
                         <Link href="#audience" className="transition-colors hover:text-foreground/80 text-foreground/60">Kimlar uchun</Link>
                         <Link href="#results" className="transition-colors hover:text-foreground/80 text-foreground/60">Natijalar</Link>
                         <Link href="#team" className="transition-colors hover:text-foreground/80 text-foreground/60">Jamoa</Link>
-                        <Link href="#contact" className="transition-colors hover:text-foreground/80 text-foreground/60">Bog'lanish</Link>
+                        <Link href="#contact" className="transition-colors hover:text-foreground/80 text-foreground/60">Bog&apos;lanish</Link>
                     </nav>
                 </div>
                 <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">

@@ -48,7 +48,7 @@ export function Services() {
                             Xizmatlarimiz
                         </h2>
                         <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-                            Biz sizga eng so'nggi AI texnologiyalari yordamida quyidagi xizmatlarni taklif etamiz.
+                            Biz sizga eng so&apos;nggi AI texnologiyalari yordamida quyidagi xizmatlarni taklif etamiz.
                         </p>
                     </FadeIn>
                 </div>

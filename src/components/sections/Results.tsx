@@ -1,4 +1,4 @@
-import { Card, CardContent } from "@/components/ui/card"
+
 import { Trophy, Users, CheckCircle, Clock } from "lucide-react"
 import { FadeIn, ScaleUp } from "@/components/ui/motion"
 
