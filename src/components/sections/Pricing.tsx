@@ -44,7 +44,7 @@ const packages = [
     },
     {
         name: "STANDARD",
-        price: 899000,
+        price: 1199000,
         originalPrice: 1899000,
         currency: "so‘m",
         popular: true,
