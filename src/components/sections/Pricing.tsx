@@ -65,8 +65,8 @@ const packages = [
     },
     {
         name: "PRO (Individual)",
-        price: 2999000,
-        originalPrice: 4990000,
+        price: 7499000,
+        originalPrice: 12499000,
         currency: "so‘m",
         description: "“Men natijani kafolat bilan xohlayman” deganlar uchun",
         features: [
