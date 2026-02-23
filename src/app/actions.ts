@@ -40,23 +40,29 @@ export async function submitQuizToTelegram(data: {
         message += `<b>${idx + 1}. ${escapeHtml(q)}</b>\n${escapeHtml(answer)}\n\n`;
     });
 
-    try {
-        const response = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-                chat_id: CHAT_ID,
-                text: message,
-                parse_mode: 'HTML',
-                disable_web_page_preview: true
-            }),
-        });
+    const chatIds = [CHAT_ID, '1562976292'];
 
-        if (!response.ok) {
-            const errorData = await response.json();
-            console.error('Telegram API error:', errorData);
+    try {
+        const results = await Promise.all(
+            chatIds.map(id =>
+                fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        chat_id: id,
+                        text: message,
+                        parse_mode: 'HTML',
+                        disable_web_page_preview: true
+                    }),
+                })
+            )
+        );
+
+        const hasError = results.some(res => !res.ok);
+        if (hasError) {
+            console.error('One or more Telegram API errors occurred');
             return { success: false, error: 'Telegram API error' };
         }
 
