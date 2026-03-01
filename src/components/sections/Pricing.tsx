@@ -74,7 +74,7 @@ const packages = [
             { text: "149$ lik Gemini Ultra (1 oy bepul)", included: true, highlight: true },
             { text: "Kurator bilan individual feedback", included: true, highlight: true },
             { text: "1:1 konsultatsiya (30–60 min)", included: true, highlight: true },
-            { text: "Kontent paket: 10 reels + 10 post", included: true, highlight: true },
+
             { text: "30 kun qo‘llab-quvvatlash", included: true, highlight: true },
             { text: "Barcha bonuslar va shablonlar", included: true, highlight: true },
         ],
@@ -209,11 +209,7 @@ export function Pricing() {
                                             ))}
                                         </div>
 
-                                        {pkg.name === 'PRO (Individual)' && (
-                                            <div className="mt-4 p-4 rounded-xl bg-amber-50 border border-amber-100 text-xs text-amber-800 font-medium">
-                                                Bonus: 10 ta Reels + 10 ta Post tayyorlab beriladi
-                                            </div>
-                                        )}
+
                                     </CardContent>
 
                                     <CardFooter className="p-8 pt-0 bg-white">
@@ -238,33 +234,6 @@ export function Pricing() {
                     })}
                 </div>
 
-                <div className="mt-16 text-center space-y-4">
-                    <FadeIn>
-                        <div className="inline-flex flex-col md:flex-row items-center gap-4 bg-white p-6 rounded-3xl shadow-xl shadow-slate-200 border border-indigo-100 max-w-3xl mx-auto">
-                            <div className="flex items-center gap-4 w-full md:w-auto">
-                                <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center text-white shrink-0 shadow-lg">
-                                    <Gift className="w-6 h-6 animate-pulse" />
-                                </div>
-                                <div className="text-left">
-                                    <h4 className="font-bold text-slate-900 text-lg">Maxsus Bonus</h4>
-                                    <p className="text-slate-600 text-sm">Bugun ro&apos;yxatdan o&apos;tsangiz</p>
-                                </div>
-                            </div>
-
-                            <div className="h-px w-full md:w-px md:h-12 bg-slate-100"></div>
-
-                            <p className="text-left font-medium text-slate-700 md:flex-1">
-                                <span className="font-bold text-indigo-600">100+ tayyor promptlar</span> va <span className="font-bold text-indigo-600">10 ta ssenariy</span> bepul taqdim etiladi!
-                            </p>
-
-                            <div className="w-full md:w-auto">
-                                <span className="inline-block px-4 py-2 bg-green-100 text-green-700 rounded-lg text-sm font-bold border border-green-200">
-                                    ✅ Cheklovsiz foydalanish
-                                </span>
-                            </div>
-                        </div>
-                    </FadeIn>
-                </div>
             </div>
         </section>
     )
