@@ -9,7 +9,7 @@ const team = [
     {
         name: "ai.fabrika",
         role: "Asosiy Loyiha",
-        followers: "8.5K+ obunachi",
+        followers: "21.8K obunachi",
         image: "/images/team/ai.fabrika.jpg",
         badges: ["AI Mahsulot", "10+ Jamoa"],
         description: "Bu yerda g‘oyalar — AI mahsulotga aylanadi. 10+ AI ijodkor — bitta jamoa.",
@@ -18,25 +18,25 @@ const team = [
     {
         name: "ai.zamon",
         role: "AI Creator",
-        followers: "107K+ obunachi",
+        followers: "127K obunachi",
         image: "/images/team/ai.zamon.jpg",
         badges: ["AI Content", "Video Creator"],
         description: "Sizdan bu ❤️ gina — Bizdan bu 🎬 gina. Obuna bo‘l ~ Kreativlikda bo‘l 💡",
         instagram: "https://instagram.com/ai.zamon"
     },
     {
-        name: "ai.birodar",
+        name: "ai.idrok",
         role: "Digital Creator",
-        followers: "8.8K+ obunachi",
-        image: "/images/team/ai.birodar.jpg",
-        badges: ["Digital Creator", "Tuyg'ular"],
-        description: "Bular shunchaki video emas 🎬. Bu yerda so‘zlar gapirmaydi — Tuyg‘ular gapiradi 🖤",
-        instagram: "https://instagram.com/ai.birodar"
+        followers: "55.1K obunachi",
+        image: "/images/team/ai.idrok.jpg",
+        badges: ["AI Real Foyda", "Lifehack"],
+        description: "AI’dan real foyda 🤖. Qisqa video | lifehack 🎬. Har post — foyda ⚡️",
+        instagram: "https://instagram.com/ai_idrok"
     },
     {
         name: "ai.ustaxona",
         role: "Digital Creator",
-        followers: "47K+ obunachi",
+        followers: "59.3K obunachi",
         image: "/images/team/ai.ustaxona.jpg",
         badges: ["AI Content", "Kreativlik"],
         description: "Buyurtmaga AI KONTENT 🎥. Sizdan bu ❤️ gina — Bizdan bu 🎬 gina.",
