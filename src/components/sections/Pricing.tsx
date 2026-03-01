@@ -26,7 +26,7 @@ const packages = [
     },
     {
         name: "START",
-        price: 499000,
+        price: 399000,
         originalPrice: 1499000,
         currency: "so‘m",
         description: "“O‘zim mustaqil qilaman” deganlar uchun",
@@ -44,7 +44,7 @@ const packages = [
     },
     {
         name: "STANDARD",
-        price: 1199000,
+        price: 1799000,
         originalPrice: 1899000,
         currency: "so‘m",
         popular: true,
@@ -65,7 +65,7 @@ const packages = [
     },
     {
         name: "PRO (Individual)",
-        price: 7499000,
+        price: 5999000,
         originalPrice: 12499000,
         currency: "so‘m",
         description: "“Men natijani kafolat bilan xohlayman” deganlar uchun",
