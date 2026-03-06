@@ -52,7 +52,6 @@ const packages = [
         features: [
             { text: "START’dagi barcha imkoniyatlar", included: true, highlight: true },
             { text: "Kurator bilan individual ishlash", included: true, highlight: true },
-            { text: "149$ lik Gemini Ultra (1 oy bepul)", included: true, highlight: true },
             { text: "Jonli darslar + yozuvlar", included: true, highlight: true },
             { text: "Uyga vazifa + tekshiruv", included: true, highlight: true },
             { text: "Prompt bank + template + cheklist", included: true, highlight: false },
@@ -71,7 +70,6 @@ const packages = [
         description: "“Men natijani kafolat bilan xohlayman” deganlar uchun",
         features: [
             { text: "STANDARD’dagi barcha imkoniyatlar", included: true, highlight: true },
-            { text: "149$ lik Gemini Ultra (1 oy bepul)", included: true, highlight: true },
             { text: "Kurator bilan individual feedback", included: true, highlight: true },
             { text: "1:1 konsultatsiya (30–60 min)", included: true, highlight: true },
 
